@@ -42,8 +42,7 @@ TreeNode.propTypes = {
   node: PropTypes.object.isRequired,
   getChildNodes: PropTypes.func.isRequired,
   level: PropTypes.number.isRequired,
-  onToggle: PropTypes.func.isRequired,
-  onNodeSelect: PropTypes.func.isRequired,
+  onToggle: PropTypes.func.isRequired
 };
 
 TreeNode.defaultProps = {
